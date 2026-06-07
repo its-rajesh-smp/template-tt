@@ -1,10 +1,10 @@
-import { Button } from "./components/ui/button";
+import { Header } from "./components/Header";
+import { AppLayout } from "./components/layouts/AppLayout";
 
 export const App = () => {
   return (
-    <div>
-      <h1> Template UI </h1>
-      <Button>Button</Button>
-    </div>
+    <AppLayout>
+      <Header />
+    </AppLayout>
   );
 };
